@@ -1,3 +1,4 @@
+--------
 ##
 # User Database
 # 
@@ -140,6 +141,7 @@ _corespeechd:*:306:306:CoreSpeech Services:/var/empty:/usr/bin/false
 _diagnosticservicesd:*:307:307:Diagnostic Services:/var/empty:/usr/bin/false
 _mds_stores:*:308:308:Spotlight File Metadata Index Daemon:/var/empty:/usr/bin/false
 _oahd:*:441:441:OAH Daemon:/var/empty:/usr/bin/false
+--------
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -204,6 +206,7 @@ unalias ipython
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/opt/homebrew/opt/postgresql@18/bin:$PATH"
+--------
 # Notes, programs, and files
 
 This repo contains the notebook + files from my training class.  It'll remain open through the end of the course.
