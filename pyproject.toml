@@ -1,0 +1,16 @@
+[project]
+name = "sandisk-2026-02february-08"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "gitautopush>=0.4.1",
+    "ipyparallel>=9.0.2",
+    "jupyter>=1.1.1",
+    "jupyter-core>=5.9.1",
+    "notebook>=7.5.3",
+    "numpy>=2.4.2",
+    "pandas>=3.0.0",
+    "pyarrow>=23.0.0",
+]
